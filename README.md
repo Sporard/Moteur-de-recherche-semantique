@@ -1,4 +1,4 @@
-# Moteur-de-recherche-s-mantique
+# Moteur de recherche sémantique projet de fin de licence
 Moteur de recherche sémantique basée sur l'*ontoterminologie** du siège
 
 
