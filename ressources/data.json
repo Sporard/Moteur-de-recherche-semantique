@@ -1,0 +1,699 @@
+{
+    "uri": "#ontoterminology_TerminologiedesSiges3709648259579378",
+    "type": "ontoterminology",
+
+    "metadata" : {
+        "name": "Terminologie des Sièges",
+        "domain": "Meubles",
+        "comment": "Ontoterminologie des objets à usage domestique, faits pour s'asseoir, et qui meublent les différentes parties d'une maison ou de ses dépendances" ,
+        "languages": ["fr","en","gr","cn"],
+        "author": "Christophe",
+        "creationDate": "15 janvier 2019",
+        "exportDate": "15 janvier 2019",
+        "tediVersion": "1.1"
+    },
+    "differences" : {
+        "#diff_avecpieds3709648010804899": {
+            "name": "/avec pieds/",
+            "internationalName": "/with feets/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_composite3709648010804943": {
+            "name": "/composite/",
+            "internationalName": "/composite/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_matire3709648010804968": {
+            "name": "/matière/",
+            "internationalName": "/material/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_sansbras3709648010804999": {
+            "name": "/sans bras/",
+            "internationalName": "/without arms/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_plusieurspersonnes3709648010805025": {
+            "name": "/plusieurs personnes/",
+            "internationalName": "/several persons/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_avecbras3709648010805047": {
+            "name": "/avec bras/",
+            "internationalName": "/with arms/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_sansdossier3709648010805069": {
+            "name": "/sans dossier/",
+            "internationalName": "/without back/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_unepersonne3709648010805092": {
+            "name": "/une personne/",
+            "internationalName": "/one person/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_sanspieds3709648010805113": {
+            "name": "/sans pieds/",
+            "internationalName": "/without feet/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_sige3709648010805133": {
+            "name": "/siège/",
+            "internationalName": "/seat/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_vgtal3709648010805153": {
+            "name": "/végétal/",
+            "internationalName": "/vegetal/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_artificiel3709648010805174": {
+            "name": "/artificiel/",
+            "internationalName": "/artifical/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_minral3709648010805195": {
+            "name": "/minéral/",
+            "internationalName": "/mineral/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_partie3709648010805215": {
+            "name": "/partie/",
+            "internationalName": "/part/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_naturel3709648010805234": {
+            "name": "/naturel/",
+            "internationalName": "/natural/",
+            "type": "difference",
+            "comment": ""
+        },
+        "#diff_avecdossier3709648010805257": {
+            "name": "/avec dossier/",
+            "internationalName": "/with back/",
+            "type": "difference",
+            "comment": ""
+        }
+    },
+    "analysisAxes" : {
+        "#axis_Nombredepersonnes3709648010805308": {
+            "name": "Nombre de personnes",
+            "internationalName": "Number of persons",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_unepersonne3709648010805092","#diff_plusieurspersonnes3709648010805025"]
+        },
+        "#axis_Matire3709648010805448": {
+            "name": "Matière",
+            "internationalName": "Material",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_artificiel3709648010805174","#diff_naturel3709648010805234","#diff_composite3709648010804943"]
+        },
+        "#axis_VgtalouMinral3709648010805484": {
+            "name": "Végétal ou Minéral",
+            "internationalName": "Vegetal or Mineral",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_vgtal3709648010805153","#diff_minral3709648010805195"]
+        },
+        "#axis_Pieds3709648010805513": {
+            "name": "Pieds",
+            "internationalName": "Feet",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_avecpieds3709648010804899","#diff_sanspieds3709648010805113"]
+        },
+        "#axis_Category3709648010805540": {
+            "name": "Category",
+            "internationalName": "Category",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_partie3709648010805215","#diff_sige3709648010805133","#diff_matire3709648010804968"]
+        },
+        "#axis_Bras3709648010805569": {
+            "name": "Bras",
+            "internationalName": "Arm",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_avecbras3709648010805047","#diff_sansbras3709648010804999"]
+        },
+        "#axis_Dossier3709648010805597": {
+            "name": "Dossier",
+            "internationalName": "Back",
+            "type": "analysisAxis",
+            "comment": "",
+            "differences": ["#diff_avecdossier3709648010805257","#diff_sansdossier3709648010805069"]
+        }
+    },
+    "relations" : {
+        "#rel_relatedTo3709648010805649": {
+            "name": "relatedTo",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_causal3709648010805682": {
+            "name": "causal",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_hasFunction3709648010805707": {
+            "name": "hasFunction",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_sequential3709648010805730": {
+            "name": "sequential",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_madeOf3709648010805752": {
+            "name": "madeOf",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_equivalentTo3709648010805776": {
+            "name": "equivalentTo",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        },
+        "#rel_dependentOf3709648010805800": {
+            "name": "dependentOf",
+            "internationalName": "",
+            "type": "relation",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"]
+        }
+    },
+    "attributes": {
+        "#att_matire3709648010805845": {
+            "name": "matière",
+            "internationalName": "",
+            "type": "attribute",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"],
+            "defaultValue": [],
+            "mesureUnit": ""
+        },
+        "#att_couleur3709648010805882": {
+            "name": "couleur",
+            "internationalName": "color",
+            "type": "attribute",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"],
+            "defaultValue": [],
+            "mesureUnit": ""
+        },
+        "#att_poids3709648010805942": {
+            "name": "poids",
+            "internationalName": "",
+            "type": "attribute",
+            "comment": "",
+            "domain": ["all"],
+            "range": ["all"],
+            "defaultValue": [],
+            "mesureUnit": ""
+        }
+    },
+    "concepts": {
+        "#cpt_Sigeunepersonne3709648010806005": {
+            "name": "<Siège une personne>",
+            "internationalName": "<Siège une personne>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sige3709648010806040"],
+            "ownDifferences": ["#diff_unepersonne3709648010805092"],
+            "inheritedDifferences": ["#diff_sige3709648010805133"]
+        },
+        "#cpt_Sigeunepersonneavecpiedsdossieretsansbras3709648010806113": {
+            "name": "<Siège une personne avec pieds dossier et sans bras>",
+            "internationalName": "<Siège une personne avec pieds dossier et sans bras>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/ChaiseVersailles.PNG",
+            "urlVideo": "http://ontologia.fr/Videos/UneVisiteMuséeLouvre.mp4",
+            "urlWebReference": "http://journals.openedition.org/crcv/13475",
+            "isa": ["#cpt_Sigeunepersonneavecpiedsavecdossier_3710852470654943"],
+            "ownDifferences": ["#diff_sansbras3709648010804999"],
+            "inheritedDifferences": ["#diff_avecdossier3709648010805257","#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Sigeunepersonnesanspiedssansdossieretsansbras3709648010806209": {
+            "name": "<Siège une personne sans pieds sans dossier et sans bras>",
+            "internationalName": "<Siège une personne sans pieds sans dossier et sans bras>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/PoufStyleNapoléonIII.PNG",
+            "isa": ["#cpt_Sigeunepersonne3709648010806005","#cpt_Sigesanspieds3709648010806241"],
+            "ownDifferences": ["#diff_sansbras3709648010804999","#diff_sansdossier3709648010805069"],
+            "inheritedDifferences": ["#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_sanspieds3709648010805113"]
+        },
+        "#cpt_Sigeunepersonneavecpiedsavecdossier_3710852470654943": {
+            "name": "<Siège une personne avec pieds avec dossier>",
+            "internationalName": "<Siège une personne avec pieds avec dossier>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sigeunepersonneavecpieds3709648010806145"],
+            "ownDifferences": ["#diff_avecdossier3709648010805257"],
+            "inheritedDifferences": ["#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Bras3709648010806277": {
+            "name": "<Bras>",
+            "internationalName": "<Bras>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Partie3709648010806295"],
+            "ownDifferences": [],
+            "inheritedDifferences": ["#diff_partie3709648010805215"]
+        },
+        "#cpt_Sigeunepersonneavecpieds3709648010806145": {
+            "name": "<Siège une personne avec pieds>",
+            "internationalName": "<Siège une personne avec pieds>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sigeunepersonne3709648010806005","#cpt_Sigeavecpieds3709648010806338"],
+            "ownDifferences": [],
+            "inheritedDifferences": ["#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Sige3709648010806040": {
+            "name": "<Siège>",
+            "internationalName": "<Siège>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/Sièges.PNG",
+            "isa": [],
+            "ownDifferences": ["#diff_sige3709648010805133"],
+            "inheritedDifferences": []
+        },
+        "#cpt_Matirenaturelle3709648010806397": {
+            "name": "<Matière naturelle>",
+            "internationalName": "<Matière naturelle>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Matire3709648010806417"],
+            "ownDifferences": ["#diff_naturel3709648010805234"],
+            "inheritedDifferences": ["#diff_matire3709648010804968"]
+        },
+        "#cpt_Sigeplusieurspersonnesavecpiedssansbrassansdossier3709648010806458": {
+            "name": "<Siège plusieurs personnes avec pieds sans bras sans dossier>",
+            "internationalName": "<Siège plusieurs personnes avec pieds sans bras sans dossier>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/BancVersailles.PNG",
+            "isa": ["#cpt_Sigeplusieurspersonnesavecpieds3709648010806502"],
+            "ownDifferences": ["#diff_sansdossier3709648010805069","#diff_sansbras3709648010804999"],
+            "inheritedDifferences": ["#diff_plusieurspersonnes3709648010805025","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Sigeplusieurspersonnesavecpieds3709648010806502": {
+            "name": "<Siège plusieurs personnes avec pieds>",
+            "internationalName": "<Siège plusieurs personnes avec pieds>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sigeplusieurspersonnes3709648010806568","#cpt_Sigeavecpieds3709648010806338"],
+            "ownDifferences": [],
+            "inheritedDifferences": ["#diff_plusieurspersonnes3709648010805025","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Partie3709648010806295": {
+            "name": "<Partie>",
+            "internationalName": "<Partie>",
+            "type": "concept",
+            "comment": "",
+            "isa": [],
+            "ownDifferences": ["#diff_partie3709648010805215"],
+            "inheritedDifferences": []
+        },
+        "#cpt_Sigeplusieurspersonnes3709648010806568": {
+            "name": "<Siège plusieurs personnes>",
+            "internationalName": "<Siège plusieurs personnes>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sige3709648010806040"],
+            "ownDifferences": ["#diff_plusieurspersonnes3709648010805025"],
+            "inheritedDifferences": ["#diff_sige3709648010805133"]
+        },
+        "#cpt_Matirenaturellevgtale3709648010806664": {
+            "name": "<Matière naturelle végétale>",
+            "internationalName": "<Matière naturelle végétale>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Matirenaturelle3709648010806397"],
+            "ownDifferences": ["#diff_vgtal3709648010805153"],
+            "inheritedDifferences": ["#diff_naturel3709648010805234","#diff_matire3709648010804968"]
+        },
+        "#cpt_Sigeunepersonneavecpiedssansdossiersansbras3709648010806722": {
+            "name": "<Siège une personne avec pieds sans dossier sans bras>",
+            "internationalName": "<Siège une personne avec pieds sans dossier sans bras>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/Tabouret.PNG",
+            "isa": ["#cpt_Sigeunepersonneavecpieds3709648010806145"],
+            "ownDifferences": ["#diff_sansbras3709648010804999","#diff_sansdossier3709648010805069"],
+            "inheritedDifferences": ["#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Pied3709648010806779": {
+            "name": "<Pied>",
+            "internationalName": "<Pied>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Partie3709648010806295"],
+            "ownDifferences": [],
+            "inheritedDifferences": ["#diff_partie3709648010805215"]
+        },
+        "#cpt_Sigesanspieds3709648010806241": {
+            "name": "<Siège sans pieds>",
+            "internationalName": "<Siège sans pieds>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sige3709648010806040"],
+            "ownDifferences": ["#diff_sanspieds3709648010805113"],
+            "inheritedDifferences": ["#diff_sige3709648010805133"]
+        },
+        "#cpt_Sigeavecpieds3709648010806338": {
+            "name": "<Siège avec pieds>",
+            "internationalName": "<Siège avec pieds>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Sige3709648010806040"],
+            "ownDifferences": ["#diff_avecpieds3709648010804899"],
+            "inheritedDifferences": ["#diff_sige3709648010805133"]
+        },
+        "#cpt_Sigeplusieurspersonnesavecpiedsdossieretbras3709648010806895": {
+            "name": "<Siège plusieurs personnes avec pieds dossier et bras>",
+            "internationalName": "<Siège plusieurs personnes avec pieds dossier et bras>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/CanapéStyleLouisXV.PNG",
+            "isa": ["#cpt_Sigeplusieurspersonnesavecpieds3709648010806502"],
+            "ownDifferences": ["#diff_avecbras3709648010805047","#diff_avecdossier3709648010805257"],
+            "inheritedDifferences": ["#diff_plusieurspersonnes3709648010805025","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967": {
+            "name": "<Siège une personne avec pieds dossier et bras>",
+            "internationalName": "<Siège une personne avec pieds dossier et bras>",
+            "type": "concept",
+            "comment": "",
+            "urlImage": "http://ontologia.fr/Images/Seat/FauteuiALaReine.PNG",
+            "urlVideo": "http://ontologia.fr/Videos/UneVisiteMuséeLouvre.mp4",
+            "urlWebReference": "http://journals.openedition.org/crcv/13475",
+            "isa": ["#cpt_Sigeunepersonneavecpiedsavecdossier_3710852470654943"],
+            "ownDifferences": ["#diff_avecbras3709648010805047"],
+            "inheritedDifferences": ["#diff_avecdossier3709648010805257","#diff_unepersonne3709648010805092","#diff_sige3709648010805133","#diff_avecpieds3709648010804899"]
+        },
+        "#cpt_Matirecomposite3709648010807028": {
+            "name": "<Matière composite>",
+            "internationalName": "<Matière composite>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Matire3709648010806417"],
+            "ownDifferences": ["#diff_composite3709648010804943"],
+            "inheritedDifferences": ["#diff_matire3709648010804968"]
+        },
+        "#cpt_Matire3709648010806417": {
+            "name": "<Matière>",
+            "internationalName": "<Matière>",
+            "type": "concept",
+            "comment": "",
+            "isa": [],
+            "ownDifferences": ["#diff_matire3709648010804968"],
+            "inheritedDifferences": []
+        },
+        "#cpt_Dossier3709648010807088": {
+            "name": "<Dossier>",
+            "internationalName": "<Dossier>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Partie3709648010806295"],
+            "ownDifferences": [],
+            "inheritedDifferences": ["#diff_partie3709648010805215"]
+        },
+        "#cpt_Matireartificielle3709648010807125": {
+            "name": "<Matière artificielle>",
+            "internationalName": "<Matière artificielle>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Matire3709648010806417"],
+            "ownDifferences": ["#diff_artificiel3709648010805174"],
+            "inheritedDifferences": ["#diff_matire3709648010804968"]
+        },
+        "#cpt_Matirenaturelleminrale3709648010807168": {
+            "name": "<Matière naturelle minérale>",
+            "internationalName": "<Matière naturelle minérale>",
+            "type": "concept",
+            "comment": "",
+            "isa": ["#cpt_Matirenaturelle3709648010806397"],
+            "ownDifferences": ["#diff_minral3709648010805195"],
+            "inheritedDifferences": ["#diff_naturel3709648010805234","#diff_matire3709648010804968"]
+        }
+    },
+    "languages": {
+        "fr": {
+            "#term_bergre3709648010808412": {
+                "name": "bergère",
+                "type": "term",
+                "definition": "Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin.",
+                "status": "alternative",
+                "source": "LFi 302/09/2017",
+                "notes": ["Fauteuil large et profond, muni de joues pleines, dont le siège est pourvu d'un coussin. Source : TLFi 302/09/2017"],
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967"]
+            },
+            "#term_tabouret3709648010807479": {
+                "name": "tabouret",
+                "type": "term",
+                "definition": "Siège pour une personne avec pieds, sans dossier et sans bras.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Je n'ai jamais su m'asseoir dans un fauteuil (...). J'y suis tout raide. Ce qu'il me faut, c'est une chaise, ou un bon tabouret. Plutôt la chaise; pour les reins; le tabouret quand j'étais jeune (PÉGUY, V.-M., comte Hugo, 1910, p. 670).' TLFi 02/06/2017"],
+                "notes": ["Siège pour une personne, généralement à quatre pieds, sans bras ni dossier. TLFi 02/06/2017"],
+                "concepts": ["#cpt_Sigeunepersonneavecpiedssansdossiersansbras3709648010806722"]
+            },
+            "#term_chaise3709648010807381": {
+                "name": "chaise",
+                "type": "term",
+                "definition": "Siège pour une personne sans bras avec pieds et dossier.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Les cafés à l'entour avaient depuis longtemps couché sur leurs tables de marbre leurs chaises tendrement rabotées par des derrières peu soucieux de voyages. QUENEAU, Pierrot mon ami, 1942, p. 199.' Source : TLFi 31/05/2017"],
+                "notes": ["Siège à dossier et généralement sans bras. Source : TLFi 31/05/2017"],
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretsansbras3709648010806113"]
+            },
+            "#term_fr_sigeunepersonne_3710931229106367": {
+                "name": "siège une personne",
+                "type": "term",
+                "definition": "",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonne3709648010806005"]
+            },
+            "#term_banc3709648010807306": {
+                "name": "banc",
+                "type": "term",
+                "definition": "Siège pour plusieurs personnes avec pieds sans dossier et sans bras.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Le roi portait un chapeau rond, la ganse enrichie de perles, et surmonté d'un gros diamant connu sous le nom de Pitt. Chacun était assis sur un fauteuil, une chaise, un banc, un tabouret, selon son rang ou sa dignité; ...' ERCKMANN-CHATRIAN, Histoire d'un paysan, t. 1, 1870, p. 219. Source : TLFi 02/06/2017"],
+                "notes": ["Siège allongé, avec ou sans dossier, sur lequel plusieurs personnes peuvent s'asseoir en même temps. Source : TLFi 02/06/2017"],
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedssansbrassansdossier3709648010806458"]
+            },
+            "#term_sige3709648010808445": {
+                "name": "siège",
+                "type": "term",
+                "definition": "Meuble où on s'assied.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Il s'aperçut alors de sa fatigue; il était resté debout trois ou quatre heures de suite. Il chercha un siège pour s'asseoir (MARTIN DU G., Thib., Pénitenc., 1922, p. 882).' Source : TLFi 31/05/2017"],
+                "notes": ["'Meuble comprenant généralement quatre pieds, une partie horizontale où l'on s'assied et éventuellement un dossier et des accoudoirs.' Source : TLFi 31/05/2017","'Objet à usage domestique, fait pour s'asseoir, et qui meuble les différentes parties d'une maison ou de ses dépendances: pour une personne, à dossier (v. chaise), à dossier et accoudoir (v. bergère, fauteuil), sans accoudoir ni dossier (v. tabouret), sans pieds (v. pouf2), pour plusieurs personnes, sans dossier (v. banc), avec ou sans dossier (v. banquette, canapé).' Source : TLFi 31/05/2017"],
+                "concepts": ["#cpt_Sige3709648010806040"]
+            },
+            "#term_canap3709648010807508": {
+                "name": "canapé",
+                "type": "term",
+                "definition": "Siège pour plusieurs personnes avec pieds, dossier et bras.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Nous passâmes une heure ensemble, assis sur le même canapé, dans une grande pièce de la villa où il [Roosevelt] s'était installé. DE GAULLE, Mémoires de guerre, 1956, p. 79.' TLFi 02/06/2017"],
+                "notes": ["Siège à dossier, pourvu d'accoudoirs, où plusieurs personnes peuvent s'asseoir, pouvant aussi servir de lit de repos pour une personne. TLFi 02/06/2017"],
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedsdossieretbras3709648010806895"]
+            },
+            "#term_fauteuil3709648010807445": {
+                "name": "fauteuil",
+                "type": "term",
+                "definition": "Siège pour une personne avec pieds, dossier et bras.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Assise à sa fenêtre, dans un grand fauteuil d'osier, Marthe rêvait' (MOSELLY, Terres lorr., 1907, p. 160). Source : TLFi 02/06/2017"],
+                "notes": ["Siège à dossier, généralement à bras, pour une personne, et dans lequel on est assis confortablement. Source : TLFi 02/06/2017"],
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967"]
+            },
+            "#term_chaisedintrieur3709648010807543": {
+                "name": "chaise d'intérieur",
+                "type": "term",
+                "definition": "Chaise d'intérieur",
+                "status": "alternative",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretsansbras3709648010806113"]
+            },
+            "#term_pouf3709648010808378": {
+                "name": "pouf",
+                "type": "term",
+                "definition": "Siège pour une personne sans pieds sans dossier et sans bras.",
+                "status": "preferred",
+                "source": "GE",
+                "contexts": ["'Pouf marocain. Pour elle, la vie ne commence qu'aux lumières (...) parmi les parures et l'ondoiement des jupes lustrées, argentées, brodées, qui se froissent et s'étalent sur les poufs roses' (TAINE, Notes Paris, 1867, p.178). TLFi 2017-07-09"],
+                "notes": ["'Tabouret bas, généralement cylindrique, capitonné, sans bois apparent, pour une ou plusieurs personnes; gros coussin posé sur le sol.' TLFi 2017-07-09"],
+                "concepts": ["#cpt_Sigeunepersonnesanspiedssansdossieretsansbras3709648010806209"]
+            }
+        },
+        "en": {
+            "#term_chair3709648010808501": {
+                "name": "chair",
+                "type": "term",
+                "definition": "Seat for one person, with back and legs, without arms.",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretsansbras3709648010806113"]
+            },
+            "#term_bench3709648010808532": {
+                "name": "bench",
+                "type": "term",
+                "definition": "Seat without back or arms, for more than one persons, with feet, ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedssansbrassansdossier3709648010806458"]
+            },
+            "#term_stool3709648010808562": {
+                "name": "stool",
+                "type": "term",
+                "definition": "Seat for one person, with feet, wihout arm and back. ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedssansdossiersansbras3709648010806722"]
+            },
+            "#term_seat3709648010808591": {
+                "name": "seat",
+                "type": "term",
+                "definition": "Piece of furniture designed for seating on.",
+                "status": "preferred",
+                "concepts": ["#cpt_Sige3709648010806040"]
+            },
+            "#term_armchair3709648010808619": {
+                "name": "armchair",
+                "type": "term",
+                "definition": "Seat for one person, with arms, back and feet, ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967"]
+            },
+            "#term_ottoman3709648010808705": {
+                "name": "ottoman",
+                "type": "term",
+                "definition": "Seat without back or armrsets, for one person, without feet, which usually serves as foot rest or box, with  the seat part hinged onto the lower part.",
+                "status": "preferred",
+                "notes": ["(Wikipedia) In American English, an ottoman is a piece of furniture consisting of a padded, upholstered seat or bench, usually having neither a back nor arms, often used as a stool, footstool[2][3] or, in some cases, as a coffee table.[4] Ottomans are often sold as coordinating furniture with armchairs or gliders.[5] An ottoman can also be known as a footstool,[6] tuffet,[7] hassock,[8] 'Sitee' or pouffe.[9][10] In British English, 'ottoman' also denotes an upholstered seat without a back or arms, but one that usually serves as storage, with the seat hinged to form a lid.  Ottomans can be used throughout the house, in the bedroom, gaming room, family room and guest room. Leather and bench ottomans are used as alternatives to sofas.  https://en.wikipedia.org/wiki/Ottoman_(furniture)","(Babelnet) A low seat or a stool to rest the feet of a seated person. http://babelnet.org/synset?word=bn:00035743n&details=1&lang=EN&orig=ottoman"],
+                "concepts": ["#cpt_Sigeunepersonnesanspiedssansdossieretsansbras3709648010806209"]
+            },
+            "#term_couch3709648010808742": {
+                "name": "couch",
+                "type": "term",
+                "definition": "Seat formore than one people, with arms, back and feet. ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedsdossieretbras3709648010806895"]
+            }
+        },
+        "gr": {
+            "#term_3709648010808797": {
+                "name": "καναπές",
+                "type": "term",
+                "definition": "Κάθισμα για περισσότερα από ένα άτομα, με μπράτσα, πλάτη και πόδια. ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedsdossieretbras3709648010806895"]
+            },
+            "#term_3709648010808913": {
+                "name": "κάθισμα",
+                "type": "term",
+                "definition": "Έπιπλο προορισμένο για να κάθεται κανείς.",
+                "status": "preferred",
+                "concepts": ["#cpt_Sige3709648010806040"]
+            },
+            "#term_3709648010808947": {
+                "name": "μπερζέρα",
+                "type": "term",
+                "definition": "Κάθισμα για ένα άτομο, με μπράτσα, πάτη και πόδια., ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967"]
+            },
+            "#term_3709648010808982": {
+                "name": "πολυθρόνα",
+                "type": "term",
+                "definition": "Κάθισμα για ένα άτομο, με μπράτσο, πλάτη και πόδια.",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretbras3709648010806967"]
+            },
+            "#term_3709648010809017": {
+                "name": "καρέκλα",
+                "type": "term",
+                "definition": "Κάθισμα για ένα άτομο, χωρίς μπράτσα, με πλάτη και πόδια. ",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsdossieretsansbras3709648010806113"]
+            }
+        },
+        "cn": {
+            "#term_3709648010809123": {
+                "name": "长凳",
+                "type": "term",
+                "definition": "",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedssansbrassansdossier3709648010806458"]
+            },
+            "#term_cn__3710853002455175": {
+                "name": "座位",
+                "type": "term",
+                "definition": "",
+                "status": "preferred",
+                "concepts": ["#cpt_Sige3709648010806040"]
+            },
+            "#term_3709648010809099": {
+                "name": "椅子",
+                "type": "term",
+                "definition": "",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeunepersonneavecpiedsavecdossier_3710852470654943"]
+            },
+            "#term_3709648010809072": {
+                "name": "长椅",
+                "type": "term",
+                "definition": "",
+                "status": "preferred",
+                "concepts": ["#cpt_Sigeplusieurspersonnesavecpiedsdossieretbras3709648010806895"]
+            }
+        }
+    }
+}
